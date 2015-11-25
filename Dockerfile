@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM debian:jessie
 
 RUN echo "deb http://http.debian.net/debian jessie-backports main"  >> /etc/apt/sources.list
@@ -16,3 +17,9 @@ WORKDIR /usr/src/mkimage
 
 CMD ./build.sh
 
+=======
+FROM resin/rpi-raspbian:wheezy
+RUN apt-get update
+RUN apt-get install -y bash
+ENTRYPOINT ["/bin/bash"]
+>>>>>>> ebf5c09bf8a08f0ae6a66814c17470dbe8d80475
