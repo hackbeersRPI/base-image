@@ -1,2 +1,2 @@
-FROM resin/rpi-raspbian:wheezy
+FROM debian:wheezy
 CMD /bin/bash
