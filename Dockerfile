@@ -1,3 +1,3 @@
 FROM resin/rpi-raspbian:wheezy
-EXPOSE 22
+EXPOSE 80
 CMD /bin/bash
