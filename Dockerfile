@@ -1,2 +1,2 @@
-FROM resin/armv7hf-debian
+FROM resin/rpi-raspbian:jessie
 CMD /bin/bash
