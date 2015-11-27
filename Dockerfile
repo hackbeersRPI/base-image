@@ -1,2 +1,2 @@
-FROM resin/rpi-raspbian:wheezy
+FROM resin/rpi-raspbian:jessie
 CMD /bin/bash
