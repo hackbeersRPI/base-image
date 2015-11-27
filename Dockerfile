@@ -24,3 +24,4 @@ RUN  chmod +x /usr/bin/entry.sh
 RUN systemctl enable /etc/systemd/system/launch.service
 
 ENTRYPOINT ["/usr/bin/entry.sh"]
+CMD ["/bin/bash"]
